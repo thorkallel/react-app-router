@@ -1,3 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Spline+Sans:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-spline-sans: "Spline Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-family: "Spline Sans", sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+  }
+}

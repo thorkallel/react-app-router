@@ -1,12 +1,127 @@
-# React + Vite
+# BitReact - Desafío 3: Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación web moderna desarrollada con React y React Router, implementando un diseño responsivo utilizando Tailwind CSS y Ant Design. El proyecto utiliza Vite como bundler para un desarrollo rápido y eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Características Principales
 
-## Expanding the ESLint configuration
+- Diseño responsivo para todos los dispositivos
+- Navegación dinámica con React Router
+- Componentes UI modernos con Ant Design
+- Estilos personalizados con Tailwind CSS
+- Optimización de rendimiento con Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Requisitos Previos
+
+- Node.js (versión 14.0.0 o superior)
+- npm o yarn
+- Git
+
+## Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/react-app-router.git
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd react-app-router
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+# o
+yarn install
+```
+
+## Uso
+
+Para iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+# o
+yarn dev
+```
+
+La aplicación estará disponible en `http://localhost:5173`
+
+## Estructura del Proyecto
+
+```
+react-app-router/
+├── src/              # Código fuente
+│   ├── components/   # Componentes React
+│   ├── pages/        # Páginas de la aplicación
+│   ├── assets/       # Recursos estáticos
+│   ├── App.jsx       # Componente principal
+│   └── main.jsx      # Punto de entrada
+├── public/           # Archivos públicos
+├── node_modules/     # Dependencias
+└── package.json      # Configuración del proyecto
+```
+
+## Tecnologías Utilizadas
+
+- React 19
+- React Router DOM 7
+- Tailwind CSS 3
+- Ant Design 5
+- Vite 6
+- Axios
+- Iconify React
+
+### Características de Tailwind CSS
+
+- Sistema de diseño utilitario
+- Diseño responsivo
+- Personalización de temas
+- Optimización de producción
+
+## Características del Proyecto
+
+- **Diseño Responsivo**: Adaptable a todos los tamaños de pantalla
+- **Navegación Dinámica**: Enrutamiento con React Router
+- **UI Moderna**: Componentes de Ant Design
+- **Optimización**: Bundling con Vite
+- **Accesibilidad**: Estructura semántica y ARIA labels
+
+## Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo
+- `npm run build`: Construye la aplicación para producción
+- `npm run preview`: Previsualiza la versión de producción
+- `npm run lint`: Ejecuta el linter
+
+## Contribución
+
+Si deseas contribuir al proyecto:
+
+1. Haz un Fork del repositorio
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
+
+## Contacto
+
+Tu Nombre - [@tutwitter](https://twitter.com/tutwitter) - email@ejemplo.com
+
+Link del Proyecto: [https://github.com/tu-usuario/react-app-router](https://github.com/tu-usuario/react-app-router)
+
+## Agradecimientos
+
+- La comunidad de React
+- Vite por su excelente herramienta de desarrollo
+- Ant Design por sus componentes UI
+- Tailwind CSS por su sistema de utilidades
